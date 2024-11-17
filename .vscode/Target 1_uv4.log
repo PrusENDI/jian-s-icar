@@ -1,0 +1,21 @@
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+Note: source file '.\PID.c' - object file renamed from '.\Objects\PID.o' to '.\Objects\pid_1.o'.Note: source file '.\PID.c' - object file renamed from '.\Objects\PID.o' to '.\Objects\pid_1.o'.compiling PID.c...
+PID.c(24): error:  #20: identifier "pid_control" is undefined
+  float output = pid_control(xxx);
+PID.c(24): error:  #59: function call is not allowed in a constant expression
+  float output = pid_control(xxx);
+PID.c(24): error:  #20: identifier "xxx" is undefined
+  float output = pid_control(xxx);
+PID.c: 0 warnings, 3 errors
+compiling PID.c...
+PID.c(24): error:  #20: identifier "pid_control" is undefined
+  float output = pid_control(xxx);
+PID.c(24): error:  #59: function call is not allowed in a constant expression
+  float output = pid_control(xxx);
+PID.c(24): error:  #20: identifier "xxx" is undefined
+  float output = pid_control(xxx);
+PID.c: 0 warnings, 3 errors
+".\Objects\Project.axf" - 6 Error(s), 0 Warning(s).
+Target not created.
+Build Time Elapsed:  00:00:01
